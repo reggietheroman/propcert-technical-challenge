@@ -18,8 +18,18 @@ Install the dependencies:
 
 ## Run
 
-To start the program, run the ff in your terminal:
+### Server
+
+To start the server, run the ff in your terminal:
 `pnpm start`
+
+### ImmuDB
+
+1. Assuming you are in the project root directory, cd into the containers directory on your 
+terminal. `cd containers`
+2. Assuming you have docker (it should be running) and docker compose already installed, run 
+`docker compose up`. If you  want to run in detached mode, use `docker compose up -d`
+3. If you did not run in detached mode, you can use `ctrl + c` in your terminal to stop the service.
 
 ## Test
 

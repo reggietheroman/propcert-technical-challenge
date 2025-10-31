@@ -1,4 +1,5 @@
 /node_modules
+/containers/data
 **/.DS_Store
 
 .env

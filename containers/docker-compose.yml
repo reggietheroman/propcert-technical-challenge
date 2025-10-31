@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  immudb:
+    image: codenotary/immudb:latest
+    container_name: immudb
+    restart: unless-stopped
+    ports:
+      - "3322:3322" # gRPC port(read more later)
+      - "9497:9497" # access the web ui at http://localhost:9497
+      - "8080:8080" # rest port for immudb(read more later)
+      - "5432:5432" # postressql proxy(read more later)
+    environment:
+      IMMUDB_ADMIN_PASSWORD: "immudb"
+    volumes:
+      - ./data:/var/lib/immudb
+      # data is the sibling directory to this file, the local db will be in there
