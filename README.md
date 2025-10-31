@@ -31,6 +31,12 @@ terminal. `cd containers`
 `docker compose up`. If you  want to run in detached mode, use `docker compose up -d`
 3. If you did not run in detached mode, you can use `ctrl + c` in your terminal to stop the service.
 
+The ImmuDB web UI is accessible at `localhost:8080`
+```
+user: immudb
+pass: immudb
+```
+
 ## Test
 
 To start the tests, run the ff in your terminal:
