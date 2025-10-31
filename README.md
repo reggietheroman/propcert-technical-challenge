@@ -39,8 +39,7 @@ pass: immudb
 
 ## Test
 
-To start the tests, run the ff in your terminal:
-`pnpm run test`
+Click [here](https://www.postman.com/winter-trinity-918909/reggietheromans-public-workspace/collection/ybodkka/apteum-propcert?action=share&source=copy-link&creator=1224272) for postman collection.
 
 ## Quick links
 
