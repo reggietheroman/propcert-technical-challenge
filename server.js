@@ -1,5 +1,6 @@
 import app from './src/app.js';
 import { closeClient, initClient } from './src/database/immudbClient.js';
+import 'dotenv/config';
 
 const PORT = process.env.PORT || 3000;
 
