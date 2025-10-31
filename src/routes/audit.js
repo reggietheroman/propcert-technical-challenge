@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { getImmudb } from '../database/immudbClient.js';
 const router = Router();
 /**
+ * GET /api/audit/verify/:transaction_id
  * Return complete transaction history for a product
  * Include verification status for each transaction
  * Calculate running balance
